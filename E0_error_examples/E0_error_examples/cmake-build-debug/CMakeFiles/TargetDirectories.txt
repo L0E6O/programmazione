@@ -1,0 +1,3 @@
+/home/jarro/Uni/primoAnno/programmazione/E0_error_examples/E0_error_examples/cmake-build-debug/CMakeFiles/error_examples.dir
+/home/jarro/Uni/primoAnno/programmazione/E0_error_examples/E0_error_examples/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jarro/Uni/primoAnno/programmazione/E0_error_examples/E0_error_examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
