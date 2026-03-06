@@ -13,6 +13,7 @@ GameEvent getEvent() {
     char c;
     while (std::cin.get(c)) {
         std::cin.ignore(100, '\n');
+
         switch (c) {
             case 'Q':
                 return GameEvent::quit;
@@ -109,7 +110,6 @@ bool updateGame(const GameEvent &gameEvent, GameCharacter &hero, GameCharacter &
             break;
         }
         case GameEvent::fight: {
-            // FIXME a fight should be allowed only if the hero is next to the monster
             if (hero.isLegalFight(enemy)) {
                 std::cout << "Fight" << std::endl;
                 hero.fight(enemy);
@@ -127,9 +127,9 @@ bool updateGame(const GameEvent &gameEvent, GameCharacter &hero, GameCharacter &
 // render Head Up Display
 void renderHUD(GameCharacter &hero) {
     std::cout << "Press: w,a,s,d,f or Q to quit." << std::endl;
-    std::cout << "Hero - HP: " << hero.getHP() << " - armor: " << hero.getArmor();
-    // TODO if the hero has a weapon print its strength
-    std::cout << std::endl;
+    std::cout << "Hero - HP: " << hero.getHP() << " - armor: " << hero.getArmor() << std::endl;
+    if (hero.getWeapon())
+        std::cout << "Weapon - strenght: " << hero.getWeapon()->getStrength() << std::endl;
 }
 
 // render the whole graphics, compositing characters over map
@@ -204,15 +204,14 @@ int main() {
     enemy.setPosY(startY);
 
     // render
-    renderHUD(hero); // FIXME
+    renderHUD(hero);
     renderGame(map, hero, enemy);
     // game loop. See http://gameprogrammingpatterns.com/game-loop.html
     while (true) {
         // poll event
         GameEvent gameEvent = getEvent();
 
-        // update game status
-        // FIXME correct updateGame to allow to fight only when the hero is next to the enemy
+        // update game statusd
         bool quit = updateGame(gameEvent, hero, enemy, map);
         if (quit)
             return 0;
