@@ -9,6 +9,9 @@
 
 #include <ctime>
 #include <iostream>
+#include <tuple>
+
+#include "Dice.h"
 
 using namespace std;
 static const int DEFAULT_HP = 10;
@@ -50,6 +53,8 @@ void GameCharacter::setArmor(int defense) {
 
 bool GameCharacter::fight(GameCharacter &enemy) const{
     bool success = false;
+    Dice d6(6);
+    int rollResult = d6.roll(1);
 
     int hit = 1;
     if (weapon)
@@ -57,7 +62,9 @@ bool GameCharacter::fight(GameCharacter &enemy) const{
 
     int damage = 0;
     if (hit > enemy.getArmor()) {
-        damage = enemy.receiveDamage(hit);
+        cout << "Roll result: " << rollResult << endl;
+        if (rollResult >= 3)
+            damage = enemy.receiveDamage(hit);
     }
 
     if (damage) {

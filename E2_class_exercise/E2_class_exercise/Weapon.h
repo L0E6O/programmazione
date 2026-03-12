@@ -33,7 +33,7 @@ public:
 protected:
     int strength;
     bool magic;
-    static const int DEFAULT_STRENGHT;
+    static const int DEFAULT_STRENGHT = 10;
 };
 
 #endif // WEAPON_H
