@@ -19,8 +19,27 @@ public:
             delete weapon;
     }
 
-    // TODO add copy constructor ?
-    // TODO add assignment operator ?
+    GameCharacter(const GameCharacter &that) {
+        copier(that);
+        delete this->weapon;
+        if (that.weapon) {
+            weapon = new Weapon(*that.weapon);
+        }
+        else
+            weapon = nullptr;
+    }
+
+    GameCharacter& operator=(const GameCharacter& that) {
+        if (this != &that) {
+            copier(that);
+            delete this->weapon;
+            if (that.weapon)
+                weapon = new Weapon(*that.weapon);
+            else
+                weapon = nullptr;
+        }
+        return *this;
+    }
 
     void move(int x, int y);
 
@@ -67,6 +86,13 @@ private:
     int posX;
     int posY;
     Weapon* weapon;
+
+    void copier(const GameCharacter &that) {
+        this->HP = that.HP;
+        this->armor = that.armor;
+        this->posX = that.posX;
+        this->posY = that.posY;
+    }
 };
 
 #endif // CHARACTER_H_
