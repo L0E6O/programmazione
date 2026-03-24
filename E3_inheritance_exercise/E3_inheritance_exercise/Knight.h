@@ -12,7 +12,7 @@
 // extend GameCharacter
 class Knight : public GameCharacter{
 public:
-    Knight(int hp, int a, int d=15, bool p=false, std::string n="ciccio") : GameCharacter(hp, a), dexterity(d), paladin(p), name(n){}
+    explicit Knight(int hp=10, int a=5, int d=15, bool p=false, std::string n="ciccio") : GameCharacter(hp, a), dexterity(d), paladin(p), name(n){}
 
     int fight(GameCharacter &enemy) override;
 

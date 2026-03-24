@@ -4,9 +4,9 @@
 
 #ifndef E3_INHERITANCE_EXERCISE_ORC_H
 #define E3_INHERITANCE_EXERCISE_ORC_H
+#include "GameCharacter.h"
 
-// TODO extend GameCharacter... do we need to include GameCharacter.h?
-class Orc {
+class Orc : public GameCharacter {
 public:
     explicit Orc(int s, int hp=20);
 

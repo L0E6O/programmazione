@@ -11,6 +11,8 @@ public:
     Weapon();
     explicit Weapon(int s, bool m = false);
 
+    virtual ~Weapon() = default; //default fa la catena di distruzione, dalla più derivata, alla meno
+
     virtual int use();
 
     void setStrength(int s) {

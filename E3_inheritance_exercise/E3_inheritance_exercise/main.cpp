@@ -205,8 +205,18 @@ int main() {
     map.createDungeon(80, 25, 50);
     // create hero and set him/her up
     GameCharacter* hero;
-    bool useKnight = true;
-    // TODO create a Knight or a Wizard hero depending on useKnight
+    std::string scelta;
+    std::cout << "Cavaliere o Mago? [C/M]"<< std::endl;
+    std::cin >> scelta;
+    bool useKnight;
+    if (scelta == "C")
+        useKnight = true;
+    else
+        useKnight = false;
+    if (useKnight)
+        hero = new Knight();
+    else
+        hero = new Wizard();
     // find a legal start position
     int startX = 0;
     int startY = 0;
@@ -223,6 +233,8 @@ int main() {
     hero->setWeapon(weapon);
     // create an enemy (an Orc or a Skeleton)
     GameCharacter* enemy;
+    GameCharacter* enemy1;
+
     // TODO create an orc
     // TODO create a skeleton
     // find monster position not too far from hero position
