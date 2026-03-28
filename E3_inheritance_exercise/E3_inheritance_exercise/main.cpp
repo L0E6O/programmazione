@@ -1,4 +1,5 @@
 #include <iostream>
+#include <valarray>
 
 #include "Dungeon.h"
 #include "GameCharacter.h"
@@ -7,6 +8,7 @@
 #include "Sword.h"
 #include "Bow.h"
 #include "Orc.h"
+#include "Skeleton.h"
 
 // enum class
 enum class GameEvent {
@@ -156,7 +158,7 @@ void renderGame(Dungeon &map, GameCharacter &hero, GameCharacter& enemy) {
     for (int y = 0; y < map.getYsize(); y++) {
         for (int x = 0; x < map.getXsize(); x++) {
             // draw characters... hero and monster
-            char renderSymbol = '';
+            char renderSymbol; //prima era <''>
             if (x == hero.getPosX() && y == hero.getPosY())
                 std::cout << hero.getCharacterSymbol();
             else if (checkMonsterPosition(x, y, enemy, renderSymbol))
@@ -205,18 +207,17 @@ int main() {
     map.createDungeon(80, 25, 50);
     // create hero and set him/her up
     GameCharacter* hero;
-    std::string scelta;
+    char scelta;
     std::cout << "Cavaliere o Mago? [C/M]"<< std::endl;
     std::cin >> scelta;
-    bool useKnight;
-    if (scelta == "C")
-        useKnight = true;
-    else
-        useKnight = false;
-    if (useKnight)
+    if (scelta == 'c') {
         hero = new Knight();
-    else
+        std::cout << "Cavaliere scelto!" << std::endl;
+    }
+    else {
         hero = new Wizard();
+        std::cout << "Mago scelto!" << std::endl;
+    }
     // find a legal start position
     int startX = 0;
     int startY = 0;
@@ -235,8 +236,8 @@ int main() {
     GameCharacter* enemy;
     GameCharacter* enemy1;
 
-    // TODO create an orc
-    // TODO create a skeleton
+    Orc* o1 = new Orc();
+    Skeleton* s1 = new Skeleton(10, 5, false);
     // find monster position not too far from hero position
     startX += 5;
     startY += 3;
@@ -260,5 +261,6 @@ int main() {
         renderHUD(*hero);
         renderGame(map, *hero, *enemy);
     }
-
+    delete o1;
+    delete s1;
 }

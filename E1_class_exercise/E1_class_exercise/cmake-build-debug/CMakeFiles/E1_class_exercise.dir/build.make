@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise
+CMAKE_SOURCE_DIR = /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/E1_class_exercise.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/E1_class_exercise.dir/codegen:
 .PHONY : CMakeFiles/E1_class_exercise.dir/codegen
 
 CMakeFiles/E1_class_exercise.dir/main.cpp.o: CMakeFiles/E1_class_exercise.dir/flags.make
-CMakeFiles/E1_class_exercise.dir/main.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/main.cpp
+CMakeFiles/E1_class_exercise.dir/main.cpp.o: /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/main.cpp
 CMakeFiles/E1_class_exercise.dir/main.cpp.o: CMakeFiles/E1_class_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E1_class_exercise.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/main.cpp.o -MF CMakeFiles/E1_class_exercise.dir/main.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E1_class_exercise.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/main.cpp.o -MF CMakeFiles/E1_class_exercise.dir/main.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/main.cpp
 
 CMakeFiles/E1_class_exercise.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E1_class_exercise.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/main.cpp > CMakeFiles/E1_class_exercise.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/main.cpp > CMakeFiles/E1_class_exercise.dir/main.cpp.i
 
 CMakeFiles/E1_class_exercise.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E1_class_exercise.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/main.cpp -o CMakeFiles/E1_class_exercise.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/main.cpp -o CMakeFiles/E1_class_exercise.dir/main.cpp.s
 
 CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o: CMakeFiles/E1_class_exercise.dir/flags.make
-CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp
+CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o: /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp
 CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o: CMakeFiles/E1_class_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o -MF CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o -MF CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp
 
 CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp > CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp > CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.i
 
 CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp -o CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.cpp -o CMakeFiles/E1_class_exercise.dir/Dungeon.cpp.s
 
 CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: CMakeFiles/E1_class_exercise.dir/flags.make
-CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp
+CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp
 CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: CMakeFiles/E1_class_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o -MF CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o -MF CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp
 
 CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp > CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp > CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.i
 
 CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp -o CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp -o CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.s
 
 CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o: CMakeFiles/E1_class_exercise.dir/flags.make
-CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp
+CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o: /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp
 CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o: CMakeFiles/E1_class_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o -MF CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o -MF CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o.d -o CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp
 
 CMakeFiles/E1_class_exercise.dir/Weapon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E1_class_exercise.dir/Weapon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp > CMakeFiles/E1_class_exercise.dir/Weapon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp > CMakeFiles/E1_class_exercise.dir/Weapon.cpp.i
 
 CMakeFiles/E1_class_exercise.dir/Weapon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E1_class_exercise.dir/Weapon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp -o CMakeFiles/E1_class_exercise.dir/Weapon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/Weapon.cpp -o CMakeFiles/E1_class_exercise.dir/Weapon.cpp.s
 
 # Object files for target E1_class_exercise
 E1_class_exercise_OBJECTS = \
@@ -144,7 +144,7 @@ E1_class_exercise: CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o
 E1_class_exercise: CMakeFiles/E1_class_exercise.dir/Weapon.cpp.o
 E1_class_exercise: CMakeFiles/E1_class_exercise.dir/build.make
 E1_class_exercise: CMakeFiles/E1_class_exercise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable E1_class_exercise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable E1_class_exercise"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/E1_class_exercise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/E1_class_exercise.dir/clean:
 .PHONY : CMakeFiles/E1_class_exercise.dir/clean
 
 CMakeFiles/E1_class_exercise.dir/depend:
-	cd /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles/E1_class_exercise.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug /home/jarro/Uni/programmazione/E1_class_exercise/E1_class_exercise/cmake-build-debug/CMakeFiles/E1_class_exercise.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/E1_class_exercise.dir/depend
 

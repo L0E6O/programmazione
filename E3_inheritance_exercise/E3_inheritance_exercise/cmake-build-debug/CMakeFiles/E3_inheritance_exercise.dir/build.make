@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise
+CMAKE_SOURCE_DIR = /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/E3_inheritance_exercise.dir/depend.make
@@ -73,158 +73,158 @@ CMakeFiles/E3_inheritance_exercise.dir/codegen:
 .PHONY : CMakeFiles/E3_inheritance_exercise.dir/codegen
 
 CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp
+CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp
 CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp > CMakeFiles/E3_inheritance_exercise.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp > CMakeFiles/E3_inheritance_exercise.dir/main.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp -o CMakeFiles/E3_inheritance_exercise.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp -o CMakeFiles/E3_inheritance_exercise.dir/main.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp > CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp > CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Dungeon.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp
+CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp
 CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp > CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp > CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp -o CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp -o CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp > CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp > CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Weapon.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp > CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp > CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Dice.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp > CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp > CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Sword.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp > CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp > CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Bow.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp > CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp > CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Orc.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp > CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp > CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Knight.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp > CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp > CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.s
 
 CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/flags.make
-CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp
+CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o: /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp
 CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o: CMakeFiles/E3_inheritance_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o -MF CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o.d -o CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o -c /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp
 
 CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp > CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp > CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.i
 
 CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.cpp -o CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.s
 
 # Object files for target E3_inheritance_exercise
 E3_inheritance_exercise_OBJECTS = \
@@ -256,7 +256,7 @@ E3_inheritance_exercise: CMakeFiles/E3_inheritance_exercise.dir/Wizard.cpp.o
 E3_inheritance_exercise: CMakeFiles/E3_inheritance_exercise.dir/Skeleton.cpp.o
 E3_inheritance_exercise: CMakeFiles/E3_inheritance_exercise.dir/build.make
 E3_inheritance_exercise: CMakeFiles/E3_inheritance_exercise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable E3_inheritance_exercise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable E3_inheritance_exercise"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/E3_inheritance_exercise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -268,6 +268,6 @@ CMakeFiles/E3_inheritance_exercise.dir/clean:
 .PHONY : CMakeFiles/E3_inheritance_exercise.dir/clean
 
 CMakeFiles/E3_inheritance_exercise.dir/depend:
-	cd /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug /home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles/E3_inheritance_exercise.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles/E3_inheritance_exercise.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/E3_inheritance_exercise.dir/depend
 

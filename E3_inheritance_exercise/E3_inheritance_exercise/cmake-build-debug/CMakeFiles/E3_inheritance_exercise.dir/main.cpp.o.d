@@ -1,5 +1,5 @@
-CMakeFiles/E1_class_exercise.dir/main.cpp.o: \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/main.cpp \
+CMakeFiles/E3_inheritance_exercise.dir/main.cpp.o: \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15/iostream \
  /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
@@ -129,7 +129,34 @@ CMakeFiles/E1_class_exercise.dir/main.cpp.o: \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Dungeon.h \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.h \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Weapon.h
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/valarray \
+ /usr/include/c++/15/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/15/algorithm \
+ /usr/include/c++/15/bits/stl_algo.h \
+ /usr/include/c++/15/bits/algorithmfwd.h \
+ /usr/include/c++/15/bits/stl_heap.h \
+ /usr/include/c++/15/bits/uniform_int_dist.h \
+ /usr/include/c++/15/bits/stl_tempbuf.h \
+ /usr/include/c++/15/bits/valarray_array.h \
+ /usr/include/c++/15/bits/valarray_array.tcc \
+ /usr/include/c++/15/bits/valarray_before.h \
+ /usr/include/c++/15/bits/slice_array.h \
+ /usr/include/c++/15/bits/valarray_after.h \
+ /usr/include/c++/15/bits/gslice.h \
+ /usr/include/c++/15/bits/gslice_array.h \
+ /usr/include/c++/15/bits/mask_array.h \
+ /usr/include/c++/15/bits/indirect_array.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dungeon.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Wizard.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Knight.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Sword.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Bow.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Orc.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Skeleton.h

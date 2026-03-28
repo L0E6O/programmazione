@@ -1,9 +1,10 @@
-CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.cpp \
+CMakeFiles/E3_inheritance_exercise.dir/GameCharacter.cpp.o: \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.cpp \
  /usr/include/stdc-predef.h \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/GameCharacter.h \
- /home/jarro/Uni/primoAnno/programmazione/E1_class_exercise/E1_class_exercise/Weapon.h \
- /usr/include/c++/15/complex \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/GameCharacter.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Weapon.h \
+ /home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/Dice.h \
+ /usr/include/c++/15/ctime \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/os_defines.h \
@@ -12,48 +13,31 @@ CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
  /usr/include/gnu/stubs-64.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/cpu_defines.h \
- /usr/include/c++/15/bits/cpp_type_traits.h \
- /usr/include/c++/15/bits/version.h /usr/include/c++/15/ext/type_traits.h \
- /usr/include/c++/15/cmath /usr/include/c++/15/bits/requires_hosted.h \
- /usr/include/math.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/flt-eval-method.h \
- /usr/include/bits/fp-logb.h /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-macros.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/15/bits/std_abs.h \
- /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/time.h /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+ /usr/include/bits/time.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/timex.h /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h \
- /usr/include/bits/types/struct_timeval.h \
- /usr/include/bits/types/struct_timespec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/15/sstream \
- /usr/include/c++/15/istream /usr/include/c++/15/ios \
- /usr/include/c++/15/iosfwd /usr/include/c++/15/bits/stringfwd.h \
+ /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
+ /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.h \
+ /usr/include/c++/15/ios /usr/include/c++/15/iosfwd \
+ /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/memoryfwd.h /usr/include/c++/15/bits/postypes.h \
  /usr/include/c++/15/cwchar /usr/include/wchar.h \
+ /usr/include/bits/libc-header-start.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/c++/15/exception \
- /usr/include/c++/15/bits/exception.h \
+ /usr/include/c++/15/bits/exception.h /usr/include/c++/15/bits/version.h \
  /usr/include/c++/15/bits/exception_ptr.h \
  /usr/include/c++/15/bits/exception_defines.h \
  /usr/include/c++/15/bits/cxxabi_init_exception.h \
@@ -78,9 +62,11 @@ CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
  /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
  /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/atomic_word.h \
@@ -90,6 +76,7 @@ CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++allocator.h \
  /usr/include/c++/15/bits/new_allocator.h \
  /usr/include/c++/15/bits/functexcept.h \
+ /usr/include/c++/15/bits/cpp_type_traits.h \
  /usr/include/c++/15/bits/ostream_insert.h \
  /usr/include/c++/15/bits/cxxabi_forced.h \
  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
@@ -97,6 +84,7 @@ CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
  /usr/include/c++/15/debug/assertions.h \
  /usr/include/c++/15/bits/stl_iterator_base_types.h \
  /usr/include/c++/15/bits/stl_iterator.h \
+ /usr/include/c++/15/ext/type_traits.h \
  /usr/include/c++/15/bits/ptr_traits.h \
  /usr/include/c++/15/bits/stl_function.h \
  /usr/include/c++/15/backward/binders.h \
@@ -113,6 +101,13 @@ CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
  /usr/include/c++/15/bits/alloc_traits.h \
  /usr/include/c++/15/bits/stl_construct.h \
  /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/15/bits/std_abs.h \
  /usr/include/c++/15/cstdio /usr/include/stdio.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
@@ -136,8 +131,6 @@ CMakeFiles/E1_class_exercise.dir/GameCharacter.cpp.o: \
  /usr/include/c++/15/bits/streambuf_iterator.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/ctype_inline.h \
  /usr/include/c++/15/bits/locale_facets.tcc \
- /usr/include/c++/15/bits/basic_ios.tcc /usr/include/c++/15/ostream \
- /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/bits/ostream.tcc \
- /usr/include/c++/15/bits/istream.tcc \
- /usr/include/c++/15/bits/sstream.tcc /usr/include/c++/15/ctime \
- /usr/include/c++/15/iostream
+ /usr/include/c++/15/bits/basic_ios.tcc \
+ /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
+ /usr/include/c++/15/bits/istream.tcc

@@ -8,15 +8,12 @@
 
 class Orc : public GameCharacter {
 public:
-    explicit Orc(int s, int hp=20);
+    int fight(GameCharacter &enemy) override;
 
-    // TODO override fight: if strength > 10 perform second attack
-
-    // TODO override move; if strength > 10 then allow +1 on the movements (see base class method)
-    // XXX it's already implemented in .cpp file
+    void move(int x, int y) override;
 
     // override base class method
-    char getCharacterSymbol() {
+    char getCharacterSymbol() const override{
         return 'O';
     }
 

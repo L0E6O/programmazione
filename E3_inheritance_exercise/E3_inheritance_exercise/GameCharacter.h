@@ -15,7 +15,7 @@ public:
     GameCharacter();
     explicit GameCharacter(int hp, int a = 10);
 
-    ~GameCharacter();
+    virtual ~GameCharacter();
 
     GameCharacter(const GameCharacter &original);
     GameCharacter &operator=(const GameCharacter &right);

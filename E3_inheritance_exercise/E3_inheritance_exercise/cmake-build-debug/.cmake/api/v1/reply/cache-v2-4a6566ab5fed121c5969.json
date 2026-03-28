@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug"
+			"value" : "/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -131,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake"
+			"value" : "/home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cpack"
+			"value" : "/home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/clion-2025.2.3/bin/cmake/linux/x64/bin/ctest"
+			"value" : "/home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise"
+			"value" : "/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -919,7 +919,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/clion-2025.2.3/bin/cmake/linux/x64/share/cmake-4.0"
+			"value" : "/home/jarro/clion-2025.2.4/bin/cmake/linux/x64/share/cmake-4.0"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug"
+			"value" : "/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise/cmake-build-debug"
 		},
 		{
 			"name" : "E3_inheritance_exercise_IS_TOP_LEVEL",
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jarro/Uni/primoAnno/programmazione/E3_inheritance_exercise/E3_inheritance_exercise"
+			"value" : "/home/jarro/Uni/programmazione/E3_inheritance_exercise/E3_inheritance_exercise"
 		}
 	],
 	"kind" : "cache",
