@@ -232,12 +232,7 @@ int main() {
     else
         weapon = new Bow(20, false, 40);
     hero->setWeapon(weapon);
-    // create an enemy (an Orc or a Skeleton)
-    GameCharacter* enemy;
-    GameCharacter* enemy1;
-
-    Orc* o1 = new Orc();
-    Skeleton* s1 = new Skeleton(10, 5, false);
+    GameCharacter* enemy = new Skeleton(10, 5, false);
     // find monster position not too far from hero position
     startX += 5;
     startY += 3;
@@ -261,6 +256,4 @@ int main() {
         renderHUD(*hero);
         renderGame(map, *hero, *enemy);
     }
-    delete o1;
-    delete s1;
 }

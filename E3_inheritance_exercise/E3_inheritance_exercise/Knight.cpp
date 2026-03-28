@@ -33,5 +33,5 @@ int Knight::fight(GameCharacter &enemy) {
 void Knight::move(int x, int y) {
     GameCharacter::move(x, y);
     if (dexterity > 10)
-        GameCharacter:move(x, y);
+        GameCharacter::move(x, y);
 }
