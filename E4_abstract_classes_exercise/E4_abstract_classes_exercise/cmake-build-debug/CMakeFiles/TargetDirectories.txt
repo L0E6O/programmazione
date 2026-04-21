@@ -1,0 +1,3 @@
+/home/jarro/Uni/primoAnno/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug/CMakeFiles/E4_abstract_classes_exercise.dir
+/home/jarro/Uni/primoAnno/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jarro/Uni/primoAnno/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
