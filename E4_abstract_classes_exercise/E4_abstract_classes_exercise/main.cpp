@@ -136,7 +136,7 @@ bool updateGame(const GameEvent &gameEvent, GameCharacter &hero, GameCharacter &
         }
         case GameEvent::magic: {
             if ((typeid(hero) == typeid(MageKnight) && hero.isLegalFight(enemy)) || typeid(hero) == typeid(Wizard)) {
-                Wizard magicHero = dynamic_cast<Wizard&>(hero);
+                Wizard& magicHero = dynamic_cast<Wizard&>(hero);
                 magicHero.doMagic();
             }
 
@@ -231,17 +231,21 @@ int main() {
     map.createDungeon(80, 25, 50);
     // create hero and set him/her up
     GameCharacter* hero;
-    PlayerType playerType = PlayerType::WIZARD;
-    ;
-    switch (playerType) {
-        case PlayerType::KNIGHT:
-            hero = new Knight("Isildur", 34);
-            break;
-        case PlayerType::WIZARD:
-            hero = new Wizard("Gandalf", 35);
-            break;
-        case PlayerType::MAGE_KNIGHT:
-            hero = new MageKnight("Boromir", 35, 20, 12, 5);
+    char playerType;
+    while (playerType != 'k' && playerType != 'w' && playerType != 'm') {
+        std::cout << "Scegliere eroe:\n[k/w/m]\n" << std::endl;
+        std::cin >> playerType;
+        switch (playerType) {
+            case 'k':
+                hero = new Knight("Isildur", 34);
+                break;
+            case 'w':
+                hero = new Wizard("Gandalf", 35);
+                break;
+            case 'm':
+                hero = new MageKnight("Boromir", 35, 20, 12, 5);
+                break;
+        }
     }
     // find a legal start position
     int startX = 0;
