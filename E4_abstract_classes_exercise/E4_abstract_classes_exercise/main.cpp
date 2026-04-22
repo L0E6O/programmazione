@@ -235,6 +235,7 @@ int main() {
     while (playerType != 'k' && playerType != 'w' && playerType != 'm') {
         std::cout << "Scegliere eroe:\n[k/w/m]\n" << std::endl;
         std::cin >> playerType;
+        std::cin.ignore(100, '\n');
         switch (playerType) {
             case 'k':
                 hero = new Knight("Isildur", 34);
