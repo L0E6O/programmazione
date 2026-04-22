@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/main.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/main.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Dungeon.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Dungeon.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Dungeon.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/GameCharacter.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/GameCharacter.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/GameCharacter.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Weapon.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Weapon.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Weapon.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Dice.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Dice.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Dice.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Dice.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Sword.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Sword.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Sword.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Sword.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Bow.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Bow.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Bow.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Bow.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Orc.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Orc.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Orc.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Orc.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Knight.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Knight.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Knight.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Wizard.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Wizard.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Wizard.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/Skeleton.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Skeleton.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/Skeleton.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/Skeleton.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E4_abstract_classes_exercise.dir/MageKnight.cpp.o -c /home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/MageKnight.cpp",
+  "file": "/home/jarro/Uni/programmazione/E4_abstract_classes_exercise/E4_abstract_classes_exercise/MageKnight.cpp",
+  "output": "CMakeFiles/E4_abstract_classes_exercise.dir/MageKnight.cpp.o"
+}
+]

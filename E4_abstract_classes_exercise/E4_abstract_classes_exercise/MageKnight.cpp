@@ -1,6 +1,6 @@
 #include "MageKnight.h"
 
-MageKnight::MageKnight(const std::string &n, int d, int hp, int armor, int m): Knight(n, d, hp, armor, false), Wizard(n, m, hp, armor)  {} //TODO capire pk così va bene
+MageKnight::MageKnight(const std::string &n, int d, int hp, int armor, int m): Knight(n, d, hp, armor, false), Wizard(n, m, hp, armor)  {} //XXX ovviamemte i costruttori di base SONO da delegare prima dell'esecuzione del corpo del costruttore
 
 int MageKnight::fight(GameCharacter &enemy) {
     int result = 0;

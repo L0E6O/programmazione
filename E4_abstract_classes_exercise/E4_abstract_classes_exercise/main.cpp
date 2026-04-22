@@ -231,7 +231,8 @@ int main() {
     map.createDungeon(80, 25, 50);
     // create hero and set him/her up
     GameCharacter* hero;
-    PlayerType playerType = PlayerType::MAGE_KNIGHT;
+    PlayerType playerType = PlayerType::WIZARD;
+    ;
     switch (playerType) {
         case PlayerType::KNIGHT:
             hero = new Knight("Isildur", 34);
