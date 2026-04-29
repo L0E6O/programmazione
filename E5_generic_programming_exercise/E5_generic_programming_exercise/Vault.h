@@ -10,7 +10,7 @@ public:
     Vault(int x, int y) : x(x), y(y), closed(false) {}
     virtual ~Vault() = default;
 
-    virtual void printContent() const override;
+    void printContent() const override;
     void open() {
         closed = false;
     }

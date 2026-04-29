@@ -47,6 +47,7 @@ int Potion::use(GameCharacter &gc) {
         case PotionType::RESTORING_MANA:
             return mana;
     }
+    return mana;
 }
 
 std::ostream &operator<<(std::ostream &stream, Potion potion) {

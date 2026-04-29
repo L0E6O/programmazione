@@ -10,7 +10,7 @@ public:
         }
     }
     virtual ~Inventory() = default;
-    bool setElement(int n, T& newObj);
+    bool setElement(int n, const T& newObj);
     bool getElement(int n, T& obj);
     int getMaxElements() const{
         return maxElements;
@@ -32,7 +32,7 @@ void Inventory<T, N>::printContent() const {
 }
 
 template<typename T, int N>
-bool Inventory<T, N>::setElement(int n, T& newObj) {
+bool Inventory<T, N>::setElement(int n, const T& newObj) {
     if (n<maxElements && n>=0 && usedElements[n]==false) {
         elements[n] = newObj;
         usedElements[n] = true;

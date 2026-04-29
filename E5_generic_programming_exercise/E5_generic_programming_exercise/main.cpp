@@ -263,7 +263,8 @@ int main() {
     armory.setElement(0, aSword1);
     armory.setElement(1, aBow1);
     armory.setElement(2, aSword2);
-    // allow to open vault only if within short distance from hero
+    // allow to open vault only if within short dd
+    // distance from hero
     if (l1Distance(*hero, armory)<2) {
         armory.open();
         armory.printContent();
