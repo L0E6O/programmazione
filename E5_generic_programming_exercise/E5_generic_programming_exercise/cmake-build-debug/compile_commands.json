@@ -1,80 +1,80 @@
 [
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/main.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/main.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/main.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/main.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/main.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dungeon.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dungeon.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dungeon.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dungeon.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Dungeon.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/GameCharacter.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/GameCharacter.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/GameCharacter.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/GameCharacter.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/GameCharacter.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Weapon.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Weapon.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Weapon.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Weapon.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Weapon.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Dice.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dice.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dice.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Dice.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dice.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Dice.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Dice.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Sword.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Sword.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Sword.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Sword.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Sword.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Sword.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Sword.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Bow.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Bow.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Bow.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Bow.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Bow.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Bow.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Bow.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Orc.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Orc.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Orc.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Orc.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Orc.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Orc.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Orc.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Knight.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Knight.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Knight.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Knight.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Knight.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Wizard.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Wizard.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Wizard.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Wizard.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Wizard.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Skeleton.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Skeleton.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Skeleton.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Skeleton.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Skeleton.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Skeleton.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Skeleton.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/MageKnight.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/MageKnight.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/MageKnight.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/MageKnight.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/MageKnight.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/MageKnight.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/MageKnight.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Potion.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Potion.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Potion.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E5_generic_programming_exercise.dir/Potion.cpp.o -c /home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Potion.cpp",
+  "file": "/home/jarro/Uni/programmazione/E5_generic_programming_exercise/E5_generic_programming_exercise/Potion.cpp",
   "output": "CMakeFiles/E5_generic_programming_exercise.dir/Potion.cpp.o"
 }
 ]

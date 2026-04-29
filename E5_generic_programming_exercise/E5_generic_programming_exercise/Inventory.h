@@ -26,7 +26,7 @@ protected:
 template<typename T, int N>
 void Inventory<T, N>::printContent() const {
     for (int i=0; i<N; i++) {
-        if (elements[i])
+        if (usedElements[i])
             std::cout << i << ":" << elements[i] << std::endl;
     }
 }

@@ -269,7 +269,6 @@ int main() {
         armory.printContent();
     }
 
-    // TODO instantiate an Inventory (called backpack) of potions
     Inventory<Potion> backPack;
     Potion aPotion1;
     Potion aPotion2(PotionType::HEALING_HP);

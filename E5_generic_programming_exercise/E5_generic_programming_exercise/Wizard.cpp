@@ -4,12 +4,11 @@
 
 
 void Wizard::doMagic() {
-    if (mana > 1)
-        std::cout << "Do magic trick !" << std::endl;
-    // FIXME find something nicer to do!
-    // In order to do something nicer you may need to change
-    // the signature of the method.
-    // Feel free to do so as an home exercise.
+    if (mana > 1) {
+        std::cout << "Healing spell! (+10HP)" << std::endl;
+        HP += 10;
+        mana--;
+    }
 }
 
 int Wizard::fight(GameCharacter &enemy) {
