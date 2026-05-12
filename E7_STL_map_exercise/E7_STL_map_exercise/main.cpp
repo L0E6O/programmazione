@@ -32,9 +32,16 @@ int main() {
         std::cout << "task: " << (*p).second.description << std::endl;
     }
 
-    // @see http://en.cppreference.com/w/cpp/container/multimap/equal_range
-    // TODO find all tasks on Date d2 and print their description
+    std::cout << "blocco 2" << std::endl;
+    auto range = agendaM.equal_range(d2);
+    for (auto i = range.first; i != range.second; ++i) {
+        std::cout << i->first.getDay() << ": " << i->second.description << std::endl;
+    }
 
     std::cout << "Tutte le attivita'" << std::endl;
     // TODO write a for cycle to print all activities, printing the date and description
+    for (auto i = agendaM.begin(); i != agendaM.end(); ++i) {
+        std::cout << i->first.getDay() << ": " << i->second.description << std::endl;
+    }
+    return 0;
 }
