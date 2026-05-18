@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/jarro/clion-2025.2.4/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise
+CMAKE_SOURCE_DIR = /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/E7_STL_map_exercise.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/E7_STL_map_exercise.dir/codegen:
 .PHONY : CMakeFiles/E7_STL_map_exercise.dir/codegen
 
 CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o: CMakeFiles/E7_STL_map_exercise.dir/flags.make
-CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp
+CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o: /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp
 CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o: CMakeFiles/E7_STL_map_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o -MF CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o.d -o CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o -MF CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o.d -o CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp
 
 CMakeFiles/E7_STL_map_exercise.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E7_STL_map_exercise.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp > CMakeFiles/E7_STL_map_exercise.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp > CMakeFiles/E7_STL_map_exercise.dir/main.cpp.i
 
 CMakeFiles/E7_STL_map_exercise.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E7_STL_map_exercise.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp -o CMakeFiles/E7_STL_map_exercise.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp -o CMakeFiles/E7_STL_map_exercise.dir/main.cpp.s
 
 CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o: CMakeFiles/E7_STL_map_exercise.dir/flags.make
-CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp
+CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o: /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp
 CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o: CMakeFiles/E7_STL_map_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o -MF CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o.d -o CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o -MF CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o.d -o CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o -c /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp
 
 CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp > CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp > CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.i
 
 CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp -o CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp -o CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.s
 
 CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o: CMakeFiles/E7_STL_map_exercise.dir/flags.make
-CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o: /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp
+CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o: /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp
 CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o: CMakeFiles/E7_STL_map_exercise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o -MF CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o.d -o CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o -MF CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o.d -o CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o -c /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp
 
 CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp > CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp > CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.i
 
 CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp -o CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp -o CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.s
 
 # Object files for target E7_STL_map_exercise
 E7_STL_map_exercise_OBJECTS = \
@@ -128,7 +128,7 @@ E7_STL_map_exercise: CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o
 E7_STL_map_exercise: CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o
 E7_STL_map_exercise: CMakeFiles/E7_STL_map_exercise.dir/build.make
 E7_STL_map_exercise: CMakeFiles/E7_STL_map_exercise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable E7_STL_map_exercise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable E7_STL_map_exercise"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/E7_STL_map_exercise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +140,6 @@ CMakeFiles/E7_STL_map_exercise.dir/clean:
 .PHONY : CMakeFiles/E7_STL_map_exercise.dir/clean
 
 CMakeFiles/E7_STL_map_exercise.dir/depend:
-	cd /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles/E7_STL_map_exercise.dir/DependInfo.cmake "--color=$(COLOR)" E7_STL_map_exercise
+	cd /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug/CMakeFiles/E7_STL_map_exercise.dir/DependInfo.cmake "--color=$(COLOR)" E7_STL_map_exercise
 .PHONY : CMakeFiles/E7_STL_map_exercise.dir/depend
 

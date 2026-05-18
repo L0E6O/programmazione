@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp",
+  "file": "/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/main.cpp",
   "output": "CMakeFiles/E7_STL_map_exercise.dir/main.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o -c /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp",
+  "file": "/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Date.cpp",
   "output": "CMakeFiles/E7_STL_map_exercise.dir/Date.cpp.o"
 },
 {
-  "directory": "/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp",
-  "file": "/home/jarro/Uni/primoAnno/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp",
+  "directory": "/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o -c /home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp",
+  "file": "/home/jarro/Uni/programmazione/E7_STL_map_exercise/E7_STL_map_exercise/Task.cpp",
   "output": "CMakeFiles/E7_STL_map_exercise.dir/Task.cpp.o"
 }
 ]

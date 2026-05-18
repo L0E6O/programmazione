@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/E8_smart_pointer_exercise"
+  "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/E8_smart_pointer_exercise.pdb"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Bow.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Bow.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Dice.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Dice.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Dungeon.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Dungeon.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/FakeJPEG.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/FakeJPEG.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/GameCharacter.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/GameCharacter.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/GameFileException.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/GameFileException.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Knight.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Knight.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/MageKnight.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/MageKnight.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Orc.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Orc.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Potion.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Potion.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Skeleton.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Skeleton.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Sword.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Sword.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Weapon.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Weapon.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Wizard.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/Wizard.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/main.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/main.cpp.o.d"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/splash_screen.cpp.o"
+  "CMakeFiles/E8_smart_pointer_exercise.dir/splash_screen.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/E8_smart_pointer_exercise.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/main.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/main.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/main.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Dungeon.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Dungeon.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Dungeon.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Dungeon.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/GameCharacter.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/GameCharacter.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/GameCharacter.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/GameCharacter.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Weapon.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Weapon.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Weapon.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Weapon.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Dice.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Dice.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Dice.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Dice.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Sword.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Sword.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Sword.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Sword.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Bow.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Bow.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Bow.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Bow.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Orc.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Orc.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Orc.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Orc.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Knight.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Knight.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Knight.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Wizard.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Wizard.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Wizard.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Skeleton.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Skeleton.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Skeleton.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Skeleton.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/MageKnight.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/MageKnight.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/MageKnight.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/MageKnight.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/Potion.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Potion.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/Potion.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/Potion.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/GameFileException.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/GameFileException.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/GameFileException.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/GameFileException.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/splash_screen.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/splash_screen.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/splash_screen.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/splash_screen.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/E8_smart_pointer_exercise.dir/FakeJPEG.cpp.o -c /home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/FakeJPEG.cpp",
+  "file": "/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/FakeJPEG.cpp",
+  "output": "CMakeFiles/E8_smart_pointer_exercise.dir/FakeJPEG.cpp.o"
+}
+]

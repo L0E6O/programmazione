@@ -1,0 +1,3 @@
+/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug/CMakeFiles/E8_smart_pointer_exercise.dir
+/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jarro/Uni/programmazione/E8_smart_pointer_exercise/E8_smart_pointer_exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
