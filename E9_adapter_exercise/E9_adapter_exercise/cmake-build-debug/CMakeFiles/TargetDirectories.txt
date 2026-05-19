@@ -1,0 +1,3 @@
+/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug/CMakeFiles/E9_adapter_exercise.dir
+/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/main.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/main.cpp",
+  "output": "CMakeFiles/E9_adapter_exercise.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/Sprite.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Sprite.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Sprite.cpp",
+  "output": "CMakeFiles/E9_adapter_exercise.dir/Sprite.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/Text.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Text.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Text.cpp",
+  "output": "CMakeFiles/E9_adapter_exercise.dir/Text.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/Tile.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Tile.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Tile.cpp",
+  "output": "CMakeFiles/E9_adapter_exercise.dir/Tile.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/TextShapeAdapter.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/TextShapeAdapter.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/TextShapeAdapter.cpp",
+  "output": "CMakeFiles/E9_adapter_exercise.dir/TextShapeAdapter.cpp.o"
+}
+]
