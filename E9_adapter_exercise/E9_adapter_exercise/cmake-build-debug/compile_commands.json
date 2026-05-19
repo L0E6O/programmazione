@@ -28,5 +28,11 @@
   "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/TextShapeAdapter.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/TextShapeAdapter.cpp",
   "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/TextShapeAdapter.cpp",
   "output": "CMakeFiles/E9_adapter_exercise.dir/TextShapeAdapter.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/OTextShapeAdapter.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/OTextShapeAdapter.cpp",
+  "output": "CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o"
 }
 ]

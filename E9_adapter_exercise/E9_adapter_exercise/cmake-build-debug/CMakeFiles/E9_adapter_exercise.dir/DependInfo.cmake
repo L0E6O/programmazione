@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/OTextShapeAdapter.cpp" "CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o" "gcc" "CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o.d"
   "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Sprite.cpp" "CMakeFiles/E9_adapter_exercise.dir/Sprite.cpp.o" "gcc" "CMakeFiles/E9_adapter_exercise.dir/Sprite.cpp.o.d"
   "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/Text.cpp" "CMakeFiles/E9_adapter_exercise.dir/Text.cpp.o" "gcc" "CMakeFiles/E9_adapter_exercise.dir/Text.cpp.o.d"
   "/home/jarro/Uni/primoAnno/programmazione/E9_adapter_exercise/E9_adapter_exercise/TextShapeAdapter.cpp" "CMakeFiles/E9_adapter_exercise.dir/TextShapeAdapter.cpp.o" "gcc" "CMakeFiles/E9_adapter_exercise.dir/TextShapeAdapter.cpp.o.d"

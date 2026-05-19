@@ -129,6 +129,30 @@ E9_adapter_exercise/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/E9_adapter_exercise.dir/build.make CMakeFiles/E9_adapter_exercise.dir/build
 .PHONY : E9_adapter_exercise/fast
 
+OTextShapeAdapter.o: OTextShapeAdapter.cpp.o
+.PHONY : OTextShapeAdapter.o
+
+# target to build an object file
+OTextShapeAdapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/E9_adapter_exercise.dir/build.make CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o
+.PHONY : OTextShapeAdapter.cpp.o
+
+OTextShapeAdapter.i: OTextShapeAdapter.cpp.i
+.PHONY : OTextShapeAdapter.i
+
+# target to preprocess a source file
+OTextShapeAdapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/E9_adapter_exercise.dir/build.make CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.i
+.PHONY : OTextShapeAdapter.cpp.i
+
+OTextShapeAdapter.s: OTextShapeAdapter.cpp.s
+.PHONY : OTextShapeAdapter.s
+
+# target to generate assembly for a file
+OTextShapeAdapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/E9_adapter_exercise.dir/build.make CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.s
+.PHONY : OTextShapeAdapter.cpp.s
+
 Sprite.o: Sprite.cpp.o
 .PHONY : Sprite.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... E9_adapter_exercise"
+	@echo "... OTextShapeAdapter.o"
+	@echo "... OTextShapeAdapter.i"
+	@echo "... OTextShapeAdapter.s"
 	@echo "... Sprite.o"
 	@echo "... Sprite.i"
 	@echo "... Sprite.s"

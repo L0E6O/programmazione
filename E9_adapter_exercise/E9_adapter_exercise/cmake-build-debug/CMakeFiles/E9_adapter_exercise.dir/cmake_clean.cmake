@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o"
+  "CMakeFiles/E9_adapter_exercise.dir/OTextShapeAdapter.cpp.o.d"
   "CMakeFiles/E9_adapter_exercise.dir/Sprite.cpp.o"
   "CMakeFiles/E9_adapter_exercise.dir/Sprite.cpp.o.d"
   "CMakeFiles/E9_adapter_exercise.dir/Text.cpp.o"

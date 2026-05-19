@@ -10,7 +10,8 @@
 
 class TextShapeAdapter : public Shape, public Text {
 public:
-    TextShapeAdapter(int ax = 0, int ay = 0, std::string t = "", int s = 8) : Shape(ax, ay), Text(t, s) {}
+    TextShapeAdapter(const Text& adaptee) : Text(adaptee.getText(), adaptee.getFontSize()) {}
+    TextShapeAdapter(int x, int y, const Text& adaptee) : Text(adaptee.getText(), adaptee.getFontSize()) {}
 
     void draw() override;
     void resize(float f) override;

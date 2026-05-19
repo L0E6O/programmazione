@@ -3,12 +3,12 @@
 //
 
 #include "TextShapeAdapter.h"
-#include <iostream>
 
 void TextShapeAdapter::draw() {
-    std::cout << "Text: " << text << std::endl;
+    print();
 }
 
 void TextShapeAdapter::resize(float f) {
-    fontSize = f;
+    int delta = fontSize*f - fontSize;
+    Text::resize(delta);
 }
