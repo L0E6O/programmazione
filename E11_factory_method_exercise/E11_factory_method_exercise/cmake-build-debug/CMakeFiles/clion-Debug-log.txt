@@ -1,0 +1,4 @@
+/opt/clion-2025.2.3/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise -B /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/cmake-build-debug

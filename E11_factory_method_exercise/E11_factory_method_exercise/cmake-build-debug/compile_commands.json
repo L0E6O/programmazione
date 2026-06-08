@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E11_factory_method_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/main.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/main.cpp",
+  "output": "CMakeFiles/E11_factory_method_exercise.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E11_factory_method_exercise.dir/Knight.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/Knight.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/Knight.cpp",
+  "output": "CMakeFiles/E11_factory_method_exercise.dir/Knight.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E11_factory_method_exercise.dir/Wizard.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/Wizard.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/Wizard.cpp",
+  "output": "CMakeFiles/E11_factory_method_exercise.dir/Wizard.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E11_factory_method_exercise.dir/CharacterFactory.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/CharacterFactory.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E11_factory_method_exercise/E11_factory_method_exercise/CharacterFactory.cpp",
+  "output": "CMakeFiles/E11_factory_method_exercise.dir/CharacterFactory.cpp.o"
+}
+]

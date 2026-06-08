@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/main.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/main.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/main.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/WindowsButton.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/WindowsButton.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/WindowsButton.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/WindowsButton.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/WindowsWindow.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/WindowsWindow.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/WindowsWindow.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/WindowsWindow.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/iOSButton.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/iOSButton.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/iOSButton.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/iOSButton.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/iOSWindow.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/iOSWindow.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/iOSWindow.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/iOSWindow.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/iOSFactory.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/iOSFactory.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/iOSFactory.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/iOSFactory.cpp.o"
+},
+{
+  "directory": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/cmake-build-debug",
+  "command": "/usr/bin/c++    -std=c++14 -g -fdiagnostics-color=always -o CMakeFiles/E12_abstract_factory_exercise.dir/WindowsFactory.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/WindowsFactory.cpp",
+  "file": "/home/jarro/Uni/primoAnno/programmazione/E12_abstract_factory_exercise/E12_abstract_factory_exercise/WindowsFactory.cpp",
+  "output": "CMakeFiles/E12_abstract_factory_exercise.dir/WindowsFactory.cpp.o"
+}
+]
