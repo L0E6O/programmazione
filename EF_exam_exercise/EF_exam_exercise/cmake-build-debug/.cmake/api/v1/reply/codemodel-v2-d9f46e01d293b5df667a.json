@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EF_exam_exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EF_exam_exercise_Observer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EF_exam_exercise_Observer-Debug-1f5660f22789808df832.json",
+					"name" : "EF_exam_exercise_Observer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EF_exam_exercise_RAII::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EF_exam_exercise_RAII-Debug-4399a3e96fdef1d2f706.json",
+					"name" : "EF_exam_exercise_RAII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EF_exam_exercise_RTTI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EF_exam_exercise_RTTI-Debug-e678af50e7e330d20b26.json",
+					"name" : "EF_exam_exercise_RTTI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EF_exam_exercise_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EF_exam_exercise_template-Debug-f9400f502ed2722f16f5.json",
+					"name" : "EF_exam_exercise_template",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug",
+		"source" : "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

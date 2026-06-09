@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/EF_exam_exercise_Observer.dir/main_Observer.cpp.o -o EF_exam_exercise_Observer

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/EF_exam_exercise_RAII.dir/main_RAII.cpp.o -o EF_exam_exercise_RAII

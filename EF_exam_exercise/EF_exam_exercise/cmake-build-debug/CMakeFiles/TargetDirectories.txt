@@ -1,0 +1,6 @@
+/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug/CMakeFiles/EF_exam_exercise_RTTI.dir
+/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug/CMakeFiles/EF_exam_exercise_RAII.dir
+/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug/CMakeFiles/EF_exam_exercise_Observer.dir
+/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug/CMakeFiles/EF_exam_exercise_template.dir
+/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
