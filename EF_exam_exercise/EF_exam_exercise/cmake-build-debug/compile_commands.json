@@ -1,25 +1,25 @@
 [
 {
   "directory": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_RTTI.dir/main_RTTI.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_RTTI.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_RTTI.dir/main_RTTI.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_RTTI.cpp",
   "file": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_RTTI.cpp",
   "output": "CMakeFiles/EF_exam_exercise_RTTI.dir/main_RTTI.cpp.o"
 },
 {
   "directory": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_RAII.dir/main_RAII.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_RAII.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_RAII.dir/main_RAII.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_RAII.cpp",
   "file": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_RAII.cpp",
   "output": "CMakeFiles/EF_exam_exercise_RAII.dir/main_RAII.cpp.o"
 },
 {
   "directory": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_Observer.dir/main_Observer.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_Observer.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_Observer.dir/main_Observer.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_Observer.cpp",
   "file": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_Observer.cpp",
   "output": "CMakeFiles/EF_exam_exercise_Observer.dir/main_Observer.cpp.o"
 },
 {
   "directory": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/cmake-build-debug",
-  "command": "/usr/bin/c++   -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_template.dir/main_template.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_template.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/EF_exam_exercise_template.dir/main_template.cpp.o -c /home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_template.cpp",
   "file": "/home/jarro/Uni/primoAnno/programmazione/EF_exam_exercise/EF_exam_exercise/main_template.cpp",
   "output": "CMakeFiles/EF_exam_exercise_template.dir/main_template.cpp.o"
 }

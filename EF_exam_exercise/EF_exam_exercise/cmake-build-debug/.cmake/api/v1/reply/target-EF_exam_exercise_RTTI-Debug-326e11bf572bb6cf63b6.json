@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "EF_exam_exercise_template"
+			"path" : "EF_exam_exercise_RTTI"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -40,7 +40,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -50,7 +50,7 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "14"
 			},
 			"sourceIndexes" : 
 			[
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "EF_exam_exercise_template::@6890427a1f51a3e7e1df",
+	"id" : "EF_exam_exercise_RTTI::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -70,8 +70,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "EF_exam_exercise_template",
-	"nameOnDisk" : "EF_exam_exercise_template",
+	"name" : "EF_exam_exercise_RTTI",
+	"nameOnDisk" : "EF_exam_exercise_RTTI",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,7 +92,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main_template.cpp",
+			"path" : "main_RTTI.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
