@@ -23,8 +23,8 @@ CMakeFiles/EF_exam_exercise_Observer.dir/main_Observer.cpp.o: \
  /usr/include/c++/15/debug/assertions.h \
  /usr/include/c++/15/bits/stl_iterator.h \
  /usr/include/c++/15/bits/ptr_traits.h /usr/include/c++/15/debug/debug.h \
- /usr/include/c++/15/bits/predefined_ops.h \
- /usr/include/c++/15/bits/stl_algo.h \
+ /usr/include/c++/15/bits/predefined_ops.h /usr/include/c++/15/bit \
+ /usr/include/c++/15/concepts /usr/include/c++/15/bits/stl_algo.h \
  /usr/include/c++/15/bits/algorithmfwd.h \
  /usr/include/c++/15/initializer_list /usr/include/c++/15/bits/stl_heap.h \
  /usr/include/c++/15/bits/uniform_int_dist.h \

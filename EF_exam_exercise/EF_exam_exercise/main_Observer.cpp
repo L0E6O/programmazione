@@ -81,13 +81,37 @@ public:
         }
         return false;
     };
-    void printAll() {}; // TODO implement, must print all filenames
+    void printAll() {
+        std::cout << "All files: " << std::endl;
+        for (auto& file: files) {
+            std::cout << "File name: " << file.name << std::endl;
+        }
+    }
 
 private:
     std::list <DiskFile> files;
     float diskSize; // disk size in MB
     float freeSize; // free space in MB
     std::list<Observer*> observers;
+};
+
+class LowDiskSpaceWarning : public Observer {
+public:
+    LowDiskSpaceWarning(Filesystem* subject) : subject(subject) {
+        previousFreeSpace = subject->getFreeSpace();
+    }
+
+    void update() override {
+        const float currentFreeSpace = subject->getFreeSpace();
+        if (currentFreeSpace < 10 && currentFreeSpace < previousFreeSpace) {
+            std::cout << "Only " << currentFreeSpace << "MB left!" << std::endl;
+            previousFreeSpace = currentFreeSpace;
+        }
+    }
+
+private:
+    Filesystem* subject;
+    float previousFreeSpace;
 };
 
 class FileSystemInfo : public Observer {
