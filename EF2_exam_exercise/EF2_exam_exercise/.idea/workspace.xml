@@ -32,7 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c6f636d-8a54-4990-81d2-6c26535b77ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es2_composition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/es2_composition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es3_adapter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/es3_adapter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
   "keyToString": {
     "CMake Application.ex1_inheritance.executor": "Run",
     "CMake Application.ex2_composition.executor": "Run",
+    "CMake Application.ex3_adapter.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -108,7 +109,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.ex2_composition">
+  <component name="RunManager" selected="CMake Application.ex3_adapter">
     <configuration name="ex1_inheritance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EF2_exam_exercise" TARGET_NAME="ex1_inheritance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EF2_exam_exercise" RUN_TARGET_NAME="ex1_inheritance">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -143,7 +144,7 @@
       <workItem from="1781020284696" duration="18000" />
       <workItem from="1781429999145" duration="4699000" />
       <workItem from="1781515435623" duration="4641000" />
-      <workItem from="1781531340649" duration="833000" />
+      <workItem from="1781531340649" duration="4722000" />
     </task>
     <servers />
   </component>

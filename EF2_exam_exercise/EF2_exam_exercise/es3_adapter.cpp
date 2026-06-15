@@ -18,6 +18,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
+#include <vector>
 
 enum class GameCommand { None, MoveUp, MoveDown, MoveLeft, MoveRight, Fire, Quit };
 
@@ -75,13 +76,45 @@ void gameLoopTick(KeyboardInput& input) {
     std::cout << commandName(cmd) << std::endl;
 }
 
-// TODO implement the adapter GamepadAdapter : public KeyboardInput that makes
-//      a Gamepad usable wherever the game expects a KeyboardInput:
-//      readCommand() maps each gamepad button to the matching GameCommand and
-//      throws std::invalid_argument for a button not bound to any command
+class GamepadAdapter : public KeyboardInput {
+public:
+    GameCommand readCommand() override {
+        Gamepad::Button pressed = commands.back().pressedButton();
+        commands.pop_back();
+        switch (pressed) {
+            case Gamepad::Button::DPadUp: return GameCommand::MoveUp;
+            case Gamepad::Button::DPadDown: return GameCommand::MoveDown;
+            case Gamepad::Button::DPadLeft: return GameCommand::MoveLeft;
+            case Gamepad::Button::DPadRight: return GameCommand::MoveRight;
+            case Gamepad::Button::ButtonA: return GameCommand::Fire;
+            case Gamepad::Button::ButtonB: return GameCommand::Quit;
+            default:
+                throw std::invalid_argument("Button is not bound");
+        }
+    }
+
+    void addCommand(const Gamepad& command) {
+        commands.push_back(command);
+    }
+
+private:
+    std::vector<Gamepad> commands;
+};
 
 int main() {
-    // TODO create a Gamepad and a GamepadAdapter, then drive the game with
+    Gamepad A(Gamepad::Button::ButtonA);
+    Gamepad B(Gamepad::Button::ButtonB);
+    Gamepad left(Gamepad::Button::DPadLeft);
+    Gamepad start(Gamepad::Button::Start);
+
+    GamepadAdapter gPA;
+    gPA.addCommand(A);
+    gPA.addCommand(B);
+    //gPA.addCommand(left);
+    //gPA.addCommand(start);
+
+    gameLoopTick(gPA);
+
     //      gameLoopTick(); show the std::invalid_argument case too
     return 0;
 }
