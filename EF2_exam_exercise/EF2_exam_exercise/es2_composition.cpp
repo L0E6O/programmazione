@@ -33,7 +33,7 @@ public:
     }
 
     void print() const {
-        std::cout << "MODEL: " << model << "\nCORES: " << cores << "/nPRICE: " << price << std::endl;
+        std::cout << "MODEL: " << model << "\nCORES: " << cores << "\nPRICE: " << price << std::endl;
     }
 
 private:
@@ -105,7 +105,7 @@ public:
     }
 
     void removeDrive(int pos) {
-        if (pos < 0 || pos > drives.capacity() - 1)
+        if (pos < 0 || pos > drives.size() - 1)
             throw std::out_of_range("Bad index");
         drives.erase(drives.begin()+pos);
     }
@@ -158,7 +158,9 @@ private:
 
 class CustomerOrder {
 public:
-    // TODO addComputer(...), orderTotal(), printReceipt()
+
+    explicit CustomerOrder(std::string n) : customerName(std::move(n)) {}
+
     void addComputer(const Computer& newComputer) {
         computers.push_back(newComputer);
     }
@@ -174,7 +176,7 @@ public:
     void printReceipt() const {
         for (int i = 0; i < computers.size(); i++) {
             std::cout << "---COMPUTER " << i << "---" << std::endl;
-            std::cout << "PRICE: " << computers.at(i).totalPrice();
+            std::cout << "PRICE: " << computers.at(i).totalPrice() << std::endl;
         }
         std::cout << "TOTAL: " << orderTotal() << std::endl;
     }
@@ -184,7 +186,73 @@ private:
     std::vector<Computer> computers;
 };
 
-int main() {
-    // TODO configure a computer, add it to an order and print the receipt
+int main() {std::cout << "=== INIZIO TEST DI TUTTI I METODI ===" << std::endl;
+
+    // 1. TEST METODI DELLE CLASSI COMPONENTI (Getter e print)
+    CPU intelI7("Intel i7-13700K", 16, 420.00);
+    MemoryModule ram8GB(8, 35.00);
+    Drive ssd500GB(StorageType::SSD, 500, 60.00);
+    Drive hdd1TB(StorageType::HDD, 1000, 45.00);
+
+    std::cout << "\n[TEST GETTER COMPONENTI]:" << std::endl;
+    std::cout << "CPU Modello: " << intelI7.getModel() << ", Cores: " << intelI7.getCores() << ", Prezzo: " << intelI7.getPrice() << " Euro" << std::endl;
+    std::cout << "RAM Modulo Size: " << ram8GB.getSize() << " GB, Prezzo: " << ram8GB.getPrice() << " Euro" << std::endl;
+    std::cout << "Drive Tipo: " << (ssd500GB.getType() == StorageType::SSD ? "SSD" : "HDD")
+              << ", Capacità: " << ssd500GB.getCapacity() << " GB, Prezzo: " << ssd500GB.getPrice() << " Euro" << std::endl;
+
+    // 2. CONFIGURAZIONE E TEST COMPUTER 1 (Fascia Alta)
+    std::cout << "\n[TEST COMPUTER 1]: Configurazione iniziale..." << std::endl;
+    Computer pcUfficio(intelI7);
+    pcUfficio.addMemory(ram8GB); // Metodo addMemory
+    pcUfficio.addMemory(ram8GB);
+    pcUfficio.addDrive(ssd500GB); // Metodo addDrive
+    pcUfficio.addDrive(hdd1TB);
+
+    // Test removeDrive ed eccezione std::out_of_range
+    try {
+        std::cout << "Tentativo rimozione drive a indice non valido (5)..." << std::endl;
+        pcUfficio.removeDrive(5);
+    } catch (const std::out_of_range& e) {
+        std::cerr << "-> Eccezione intercettata correttamente: " << e.what() << std::endl;
+    }
+
+    try {
+        std::cout << "Rimozione drive a indice 1 (l'HDD)..." << std::endl;
+        pcUfficio.removeDrive(1); // Metodo removeDrive valido
+        std::cout << "-> Drive rimosso correttamente." << std::endl;
+    } catch (const std::out_of_range& e) {
+        std::cerr << "-> Errore inaspettato: " << e.what() << std::endl;
+    }
+
+    // 3. CONFIGURAZIONE E TEST COMPUTER 2 (Fascia Budget)
+    std::cout << "\n[TEST COMPUTER 2]: Creazione secondo PC..." << std::endl;
+    CPU amdRyzen("AMD Ryzen 5 5600X", 6, 170.00);
+    MemoryModule ram16GB(16, 65.00);
+    Drive ssd1TB(StorageType::SSD, 1000, 85.00);
+
+    Computer pcGaming(amdRyzen);
+    pcGaming.addMemory(ram16GB);
+    pcGaming.addDrive(ssd1TB);
+
+    // Test esplicito dei metodi di calcolo su Computer 2
+    std::cout << "Metodo totalMemoryGB() su PC 2: " << pcGaming.totalMemoryGB() << " GB" << std::endl;
+    std::cout << "Metodo totalPrice() su PC 2 (170 + 65 + 85 + 50 assemblaggio): " << pcGaming.totalPrice() << " Euro" << std::endl;
+
+    std::cout << "\n[STAMPA SPECIFICHE PC 2 (Metodo printSpecs)]:" << std::endl;
+    pcGaming.printSpecs();
+
+    // 4. CREAZIONE DELL'ORDINE E TEST METODI CUSTOMERORDER
+    std::cout << "\n[TEST CUSTOMER ORDER]: Aggiunta di entrambi i PC all'ordine..." << std::endl;
+    CustomerOrder ordineCliente("Luigi Verdi");
+
+    ordineCliente.addComputer(pcUfficio); // Metodo addComputer (PC 1 modificato)
+    ordineCliente.addComputer(pcGaming);  // Metodo addComputer (PC 2)
+
+    std::cout << "Metodo orderTotal() calcolato: " << ordineCliente.orderTotal() << " Euro" << std::endl;
+
+    // Stampa finale della ricevuta complessiva
+    std::cout << "\n[STAMPA RICEVUTA FINALE (Metodo printReceipt)]:" << std::endl;
+    ordineCliente.printReceipt();
+
     return 0;
 }
